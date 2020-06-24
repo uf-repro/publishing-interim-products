@@ -48,6 +48,14 @@ Success requires self-advocacy
 * identify tools and platforms for publishing interim research products
 
 ---
+# Costs
+
+* to my knowledge, all of the tools introduced here are *free*
+  - they may have paid tiers with additional features
+  - funding sources often include large non-profits, funding agencies, etc.
+* **DO be aware that some platforms are run by for-profit publishing companies that are monetizing data on academics**
+
+---
 class: inverse, center, middle
 
 # FAIR
@@ -66,13 +74,13 @@ class: inverse, center, middle
 # Findable
 
 * Can humans and machines find the data?
-  - use metadata that accurately describe the content
-  - use metadata that helps other people find the content
+  - use metadata that accurately *describes* the content
+  - use metadata that helps people *find* the content
   
 ---
 # Metadata
 
-data that describes or gives information about other data
+**`[def]`** data that describes or gives information about other data
 
 --
 &lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;The ISO country code for Namibia is NA, which has been a hilariously frustrating discovery I made while coding today &lt;a href="https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#rstats&lt;/a&gt;&lt;/p&gt;&amp;mdash; Sarah Bowden (@mamabphd) &lt;a href="https://twitter.com/mamabphd/status/1273352107240968193?ref_src=twsrc%5Etfw"&gt;June 17, 2020&lt;/a&gt;&lt;/blockquote&gt; 
@@ -83,20 +91,21 @@ data that describes or gives information about other data
 
 * there should be minimal barriers to access the data
   - e.g. no proprietary interfaces or software required
+  - "available upon (reasonable) request" is insufficient!
 * use established methods to authenticate access to protected or private data
 
 ---
 # Interoperable
 
 * use a common, shared format for storage
-* use a metadata standard to document attributes
+* use a metadata standard for attributes
   - [FAIR Data Point](https://github.com/FAIRDataTeam/FAIRDataPoint/wiki/FAIR-Data-Point-Specification) is one
   - some are domain-specific, e.g. [Ecological Metadata Language](https://eml.ecoinformatics.org/)
 
 ---
 # Reusable
 
-* describe the data and metadata well for researchers to identify whether it is suitable for their usage
+* add descriptions to help researchers identify whether it is suitable for their usage
 * use a legal license that enables re-use
   - e.g. CC-BY or CC-0
   - **don't use a code license**, e.g. MIT
@@ -133,7 +142,6 @@ class: inverse, center, middle
 
 * https://orcid.org/
 * Open Researcher and Contributor IDentifier
-* free to use
 * unique ID that stays with you, regardless of changes in name, email, institution
 * common way to login to journals and identify yourself on publications
 
@@ -141,18 +149,27 @@ class: inverse, center, middle
 # Google Scholar
 
 * https://scholar.google.com/
-* free to use
-* track your works, correct issues in them
-* citation statistics (imperfect, but easy for people to check)
+* IMO, does the best job of automatically identifying your *papers*
+* allows you to correct errors in the records for your works
+* citation statistics
+  - these are imperfect, but LOTS of people care and this makes it easy for them to check
+
+---
+# LinkedIn
+
+* https://www.linkedin.com/
+* a *must* if you are considering a position in industry
+* use the right buzzwords for your skills
+  - find people with jobs that you aspire to, and see what buzzwords they use
 
 ---
 # Other
 
-* LinkedIn - if you want to make industry connections
-* whatever other sites are commonly used in your field
-* a personal website:
-  - lots of options here
-  - let me know if a workshop on making websites would be useful!
+* ask around to see what sites are common in your field
+  - not just what people use, but what they use to *look up or find applicants*
+* consider a personal website:
+  - present more detailed information NOT found in other sites
+  - many free and nice options (custom domains are about $10/year)
   
 ---
 
@@ -174,7 +191,7 @@ class: inverse, center, middle
 * DOIs are permanent
   - the object and metadata record are archived
 * unambiguous
-  - each DOI links to a unique object
+  - each DOI links to a unique object, and will only ever link to that object
   
 ---
 # Why is this Important?
@@ -199,7 +216,7 @@ Most journals issue a DOI for each article.
 --
 
 * **A DOI makes that work citable!**
-  + (for fellowship/grant/job applications)
+  + for fellowship/grant/job applications
 
 ---
 class: inverse, center, middle
@@ -217,26 +234,26 @@ class: inverse, center, middle
 ---
 # Preprints
 
-* places to post papers *pre*-publication
+* papers, before peer-review and journal formatting
 * very common in math &amp; physics, catching on elsewhere
 
 --
 
 why?
 
-* share what your work more quickly
+* share your work more quickly
   - not delayed until peer review
 * (sometimes) get feedback
 
 ---
 # Preprint servers
 
-* arXiv -- primary one for math and physics
-  - no DOI
-* bioRxiv -- primary one for biology
-* medRxiv -- primary one for health sciences
+* [arXiv.org](https://arxiv.org/) -- primary one for math and physics
+  - uses their own indexing instead of DOI
+* [bioRxiv.org](https://www.biorxiv.org/) -- primary one for biology
+* [medRxiv.org](https://www.medrxiv.org/) -- primary one for health sciences
 * many others
-* most are free
+  - including [OSF-hosted servers](https://osf.io/preprints/)
 
 ---
 # Data Repositories
@@ -244,7 +261,7 @@ why?
 * Zenodo
   - https://zenodo.org/
   - approved by UF IT for data storage (workshops forthcoming)
-  - free to use, 50 GB capacity, supported by CERN
+  - 50 GB capacity, supported by CERN
 * Dryad - https://datadryad.org
 * figshare - https://figshare.com
 
@@ -254,7 +271,7 @@ why?
 Additional Notes
 * Use whatever is common for your field / journal
 * Be aware of sharing restrictions for protected/private data
-* [Research Data Management Libguide](https://guides.uflib.ufl.edu/datamanagement) 
+* See the [Research Data Management Libguide](https://guides.uflib.ufl.edu/datamanagement) for details
 
 ---
 # General Purpose Repositories
@@ -262,11 +279,11 @@ Additional Notes
 * Open Science Framework
   - https://osf.io/
   - files can be uploaded or linked through github, dropbox, google drive, etc.
-  - can embed projects within other projects
+  - projects can be embedded within other projects
   - can issue DOIs for public projects
 
 ---
-# Tooling Specific Repositories
+# Tooling-Specific
 
 For specific (common) applications:
 * laboratory protocols and handy app -- https://www.protocols.io/
