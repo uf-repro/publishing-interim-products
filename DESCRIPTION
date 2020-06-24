@@ -1,6 +1,6 @@
 Package: publishingInterimProducts
 Title: Publishing Interim Research Products
-Version: 0.8.0
+Version: 0.8.1
 Authors@R: 
     person(given = "Hao",
            family = "Ye",
@@ -16,4 +16,4 @@ RoxygenNote: 7.1.0
 Imports:
     xaringan,
     xaringanthemer
-URL: https://uf-repro.github.io/publishing-interim-products/
+URL: https://github.com/uf-repro/publishing-interim-products
