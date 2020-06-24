@@ -42,7 +42,6 @@ style_mono_accent(
   link_color = "#339944"
 )
 ```
-
 class: inverse, center, middle
 
 # `r rmarkdown::metadata$title`
@@ -50,5 +49,267 @@ class: inverse, center, middle
 ### `r rmarkdown::metadata$institute`
 ### (updated: `r Sys.Date()`)
 
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ---
+# Motivations
+
+Why should you care about this topic?
+
+--
+
+**Academic systems evaluate people**
+* I dislike this, but that doesn't make it less true
+
+--
+
+Success requires self-advocacy
+
+* NOT the same as boasting
+* make it **easy for other people to find and learn about your work**
+
+---
+# Learning Outcomes
+
+* understand the FAIR principles as they relate to scientific data management
+* explain the benefits of ORCID and Google Scholar profiles
+* define DOI, its attributes, and uses
+* identify tools and platforms for publishing interim research products
+
+---
+class: inverse, center, middle
+
+# FAIR
+
+---
+# FAIR
+
+* Guidelines for *Scientific Data*
+  (but which apply more generally)
+  - Findable
+  - Accessible
+  - Interoperable
+  - Reusable
+
+---
+# Findable
+
+* Can humans and machines find the data?
+  - use metadata that accurately describe the content
+  - use metadata that helps other people find the content
+  
+---
+# Metadata
+
+data that describes or gives information about other data
+
+--
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The ISO country code for Namibia is NA, which has been a hilariously frustrating discovery I made while coding today <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a></p>&mdash; Sarah Bowden (@mamabphd) <a href="https://twitter.com/mamabphd/status/1273352107240968193?ref_src=twsrc%5Etfw">June 17, 2020</a></blockquote> 
+
+* hashtag identifies content as related to R
+---
+# Accessible
+
+* there should be minimal barriers to access the data
+  - e.g. no proprietary interfaces or software required
+* use established methods to authenticate access to protected or private data
+
+---
+# Interoperable
+
+* use a common, shared format for storage
+* use a metadata standard to document attributes
+  - [FAIR Data Point](https://github.com/FAIRDataTeam/FAIRDataPoint/wiki/FAIR-Data-Point-Specification) is one
+  - some are domain-specific, e.g. [Ecological Metadata Language](https://eml.ecoinformatics.org/)
+
+---
+# Reusable
+
+* describe the data and metadata well for researchers to identify whether it is suitable for their usage
+* use a legal license that enables re-use
+  - e.g. CC-BY or CC-0
+  - **don't use a code license**, e.g. MIT
+* include attribution and a description of how to cite the data
+
+---
+# Summary
+
+* FAIR principles are intended to make data more useful
+  - the same principles apply for academic work!
+  
+* for more on data, see the [Research Data Management Libguide](https://guides.uflib.ufl.edu/datamanagement) 
+
+---
+class: inverse, center, middle
+
+# Personal Profiles
+
+---
+# Your Academic Identity
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Never ceases to amaze me how many postdoc scientists &amp; other early career researchers have basically zero internet presence. Many have no website (beyond an impoverished uni site &amp; even that&#39;s often missing), no readily available contact details, no pub list.<br><br>Don&#39;t be invisible.</p>&mdash; Chris Chambers (@chrisdc77) <a href="https://twitter.com/chrisdc77/status/1090198315617132545?ref_src=twsrc%5Etfw">January 29, 2019</a></blockquote>
+
+---
+# is it FAIR?
+
+* Findable
+* Accessible
+* Interoperable
+* Reusable
+
+---
+# ORCID
+
+* https://orcid.org/
+* Open Researcher and Contributor IDentifier
+* free to use
+* unique ID that stays with you, regardless of changes in name, email, institution
+* common way to login to journals and identify yourself on publications
+
+---
+# Google Scholar
+
+* https://scholar.google.com/
+* free to use
+* track your works, correct issues in them
+* citation statistics (imperfect, but easy for people to check)
+
+---
+# Other
+
+* LinkedIn - if you want to make industry connections
+* whatever other sites are commonly used in your field
+* a personal website:
+  - lots of options here
+  - let me know if a workshop on making websites would be useful!
+  
+---
+
+class: inverse, center, middle
+
+# DOI
+
+---
+# DOI = Digital Object Identifier
+
+* format
+  - `10.NNNN/{suffix}`
+  - `NNNN` identifies the registrant
+  - `{suffix}` identifies the object
+  - e.g. `10.5281/zenodo.3892184`
+---
+# DOI Properties
+
+* DOIs are permanent
+  - the object and metadata record are archived
+* unambiguous
+  - each DOI links to a unique object
+  
+---
+# Why is this Important?
+
+A given DOI always point to the same object.
+- (some exceptions for updating the metadata or deleting the object)
+
+The scholarly record needs permanence.
+- someone else needs to be able to look up your sources
+- DOIs fit this role
+
+Most journals issue a DOI for each article.
+
+---
+# Get DOIs for Your Work
+
+* If you have interim products, e.g.
+  + code
+  + datasets
+  + protocols
+  + images/video
+--
+
+* **A DOI makes that work citable!**
+  + (for fellowship/grant/job applications)
+
+---
+class: inverse, center, middle
+
+# Publishing Platforms
+
+---
+# Places that issue DOIs
+
+* preprint servers
+* data repositories
+* general-purpose repositories
+* tooling-specific repositories
+
+---
+# Preprints
+
+* places to post papers *pre*-publication
+* very common in math & physics, catching on elsewhere
+
+--
+
+why?
+
+* share what your work more quickly
+  - not delayed until peer review
+* (sometimes) get feedback
+
+---
+# Preprint servers
+
+* arXiv -- primary one for math and physics
+  - no DOI
+* bioRxiv -- primary one for biology
+* medRxiv -- primary one for health sciences
+* many others
+* most are free
+
+---
+# Data Repositories
+
+* Zenodo
+  - https://zenodo.org/
+  - approved by UF IT for data storage (workshops forthcoming)
+  - free to use, 50 GB capacity, supported by CERN
+* Dryad - https://datadryad.org
+* figshare - https://figshare.com
+
+---
+# Data Repositories
+
+Additional Notes
+* Use whatever is common for your field / journal
+* Be aware of sharing restrictions for protected/private data
+* [Research Data Management Libguide](https://guides.uflib.ufl.edu/datamanagement) 
+
+---
+# General Purpose Repositories
+
+* Open Science Framework
+  - https://osf.io/
+  - files can be uploaded or linked through github, dropbox, google drive, etc.
+  - can embed projects within other projects
+  - can issue DOIs for public projects
+
+---
+# Tooling Specific Repositories
+
+For specific (common) applications:
+* laboratory protocols and handy app -- https://www.protocols.io/
+* computer code -- https://github.com
+  - does not issue DOI, but deposits to Zenodo
+* pre-register study design and analysis -- https://clinicaltrials.gov/, or https://osf.io/
+* [list of journals with registered reports](https://www.cos.io/our-services/registered-reports)
+
+---
+
+# Thanks
+
+* Let me know what content you'd like to see
+* Contact me for additional questions or consultation requests!
+* Check back in on the libguide for more modules and contact info:
+  - https://guides.uflib.ufl.edu/reproducibility
 
