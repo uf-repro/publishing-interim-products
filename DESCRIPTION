@@ -1,13 +1,13 @@
 Package: publishingInterimProducts
 Title: Publishing Interim Research Products
-Version: 1.0.1
+Version: 1.0.2
 Authors@R: 
     person(given = "Hao",
            family = "Ye",
            role = c("aut", "cre"),
            email = "haoye@ufl.edu",
            comment = c(ORCID = "0000-0002-8630-1458"))
-Description: What the package does (one paragraph).
+Description: This workshop will survey various tools and platforms that enable researchers to share and publish interim products, such as data, code, protocols, posters, etc.; to solicit feedback, demonstrate accomplishments, and get cited for work that isn't a peer-reviewed publication.
 License: CC BY 4.0
 Encoding: UTF-8
 LazyData: true

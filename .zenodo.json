@@ -1,0 +1,26 @@
+{
+"title": "Publishing Interim Research Products",
+"creators": [
+    {
+      "affiliation": "University of Florida",
+      "name": "Hao Ye",
+      "orcid": "0000-0002-8630-1458"
+    }
+],
+    "description": "This workshop will survey various tools and platforms that enable researchers to share and publish interim products, such as data, code, protocols, posters, etc.; to solicit feedback, demonstrate accomplishments, and get cited for work that isn't a peer-reviewed publication.",
+    "keywords": [
+    "Open Educational Resources",
+    "Research Support Skills",
+    "Open Access",
+    "FAIR",
+    "Data",
+    "Research Data Management", 
+    "ORCID", 
+    "Metadata", 
+    "Preprint", 
+    "DOI"
+  ],
+    "access_right": "open",
+    "license": "CC-BY-4.0",
+    "upload_type": "Lesson"
+}
