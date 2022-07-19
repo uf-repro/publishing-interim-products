@@ -1,6 +1,6 @@
-Package: publishingInterimProducts
+Package: publishing.interim.products
 Title: Publishing Interim Research Products
-Version: 1.0.2
+Version: 1.0.3
 Authors@R: 
     person(given = "Hao",
            family = "Ye",
@@ -17,3 +17,8 @@ Imports:
     xaringan,
     xaringanthemer
 URL: https://github.com/uf-repro/publishing-interim-products
+X-schema.org-keywords: Open Educational Resources, Research Support Skills, Open Access, FAIR, Data, Research Data Management, ORCID, Metadata, Preprint, DOI
+learningOutcomes: * explain the benefits of ORCID and Google Scholar profiles
+ * define DOI, its attributes, and uses
+ * understand the FAIR principles for scientific data management
+ * identify tools and platforms for publishing interim research products
